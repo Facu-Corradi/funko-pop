@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../recursos/funko corona.jpg">
+    <!-- Fuente google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=League+Gothic&family=Roboto+Condensed:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Funko</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header><!-- Encabezado -->
+        <nav class="lista"> <!-- Menu -->
+            <div>
+                <a href="../index.html"><img class="lista__inicio" src="../recursos/funko-logo-1.png" alt=""></a></li> <!-- # se recarga pagina -->
+            </div>
+            <div>
+                <ul class="lista__encabezado"> <!-- lista desordenada -->
+                    <li class="lista__encabezado--objeto"><a href="../index.html">Inicio</a></li>
+                    <li class="lista__encabezado--objeto"><a href="game-of-thrones.html">Game Of Thrones</a></li>
+                    <li class="lista__encabezado--objeto"><a href="harry-potter.html">Harry Potter</a></li>
+                    <li class="lista__encabezado--objeto"><a href="marvel.html">Marvel</a></li>
+                    <li class="lista__encabezado--objeto"><a href="colecciones.html">Colecciones</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="galeria"> <!-- galeria fotos -->
+            <h2 class="galeria__titulo">Colecciones Funko POP</h2>
+            <article class="colecciones__imagenes">
+                <div class="colecciones__cuadro coleccionuno">
+                    <img class="galeria__imagenes--uno galeria__fotos" src="../recursos/coleccionuno.jpg" alt="coleccion1">
+                    <p>Evelyn, Rosario</p>
+                </div>
+                <div class="colecciones__cuadro colecciondos">
+                    <img class="galeria__imagenes--dos galeria__fotos" src="../recursos/colecciondos.jpg" alt="coleccion2">
+                    <p>Facundo, Rosario</p>
+                </div>
+                <div class="colecciones__cuadro colecciontres">
+                    <img class="galeria__imagenes--tres galeria__fotos" src="../recursos/colecciontres.jpg" alt="coleccion3">
+                    <p>Guillermo, San Juan</p>
+                </div>
+                <div class="colecciones__cuadro coleccioncuatro">
+                    <img class="galeria__imagenes--cuatro galeria__fotos" src="../recursos/coleccioncuatro.jpg" alt="coleccion4">
+                    <p>Agustin, Uruguay</p>
+                </div>
+            </article>
+            <article class="formulario">
+                <h3 class="formulario__titulo">Envianos tu coleccion para compartirla con el resto de los aficionados</h3>
+                <form class="formulario__form" method="post">
+                    <div>
+                        <label>Nombre</label> <!-- Muestra la palabra antes del input -->
+                        <input> <!-- obtener informacion del usuario en una sola linea -->
+                    </div>
+                    <div>
+                        <label> Email</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="">Sos mayor de edad?</label>
+                        <input type="checkbox" name="Si" id="" value="">
+                        <label>SI</label>
+                        <input type="checkbox" name="No" id="" value="">
+                        <label>NO</label>
+                    </div>
+                    <div>
+                        <label for="">Sexo</label>
+                        <select name="Sexo" id="">
+                            <option value="">Masculino</option>
+                            <option value="">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="7"></textarea> <!-- informacion que amerite mas de una linea -->
+                    </div>
+                    <div>
+                        <input type="file">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Pie de pagina -->
+        <h4 class="footer__redes">Redes Sociales</h4>
+        <nav class="redes">
+            <div> <!-- imagenes redes sociales -->
+                <a href="https://www.instagram.com/originalfunko/"><img class="footer__redes--imagenes" src="../recursos/instagram-brands.svg" alt=""></a>
+                <a href="https://twitter.com/OriginalFunko"><img class="footer__redes--imagenes" src="../recursos/twitter-brands.svg" alt=""></a>
+                <a href="https://www.facebook.com/originalfunko"><img class="footer__redes--imagenes" src="../recursos/facebook-f-brands.svg" alt=""></a>
+            </div>
+            <p class="footer__derechos">Todos los derechos reservados 2022</p>
+        </nav>
+    </footer>
+</body>
+</html>
