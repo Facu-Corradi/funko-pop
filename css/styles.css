@@ -80,8 +80,17 @@ main {
 }
 
 .historia__imagen {
-    width: 90%;
+    width: 100%;
     padding: 16px;
+    text-align: center;
+
+}
+
+.historia__imagen:hover {
+    flex: 1;
+    width: 1100px;
+    height: 450px;
+    transition: 0.5s;
 
 }
 
