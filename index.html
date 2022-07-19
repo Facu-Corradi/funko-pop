@@ -19,18 +19,26 @@
 <body>
     <header><!-- Encabezado -->
         <nav class="lista"> <!-- Menu -->
-            <div> <!-- link inicio imagen -->
-                <a href="#"><img class=lista__inicio src="recursos/funko-logo-1.png" alt=""></a></li> <!-- # se recarga pagina -->
-            </div>
             <div>
-                <ul class="lista__encabezado"> <!-- lista desordenada -->
-                    <li class="lista__encabezado--objeto"><a href="#">Inicio</a></li>
-                    <li class="lista__encabezado--objeto"><a href="paginas/game-of-thrones.html">Game Of Thrones</a></li>
-                    <li class="lista__encabezado--objeto"><a href="paginas/harry-potter.html">Harry Potter</a></li>
-                    <li class="lista__encabezado--objeto"><a href="paginas/marvel.html">Marvel</a></li>
-                    <li class="lista__encabezado--objeto"><a href="paginas/colecciones.html">Colecciones</a></li>
-                </ul>
+                <a href="index.html"><img class=lista__inicio src="recursos/funko-logo-1.png" alt=""></a></li> <!-- # se recarga pagina -->
             </div>
+            <ul class="nav justify-content-end lista__encabezado">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/game-of-thrones.html">Game Of Thrones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/harry-potter.html">Harry Potter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/marvel.html">Marvel </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/colecciones.html">Colecciones</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main> <!-- Contenido de la pagina -->
@@ -41,7 +49,27 @@
                 <p class="historia__total--desarrollo">Funko es una empresa estadounidense fundada por Mike Becker en 1998, junto a los artistas Rob Schwartz y Sean Wilkinson. La idea inicial surgió debido a que Mike Becker buscaba una hucha antigua que tuviera la imagen de la mascota de los restaurantes Big Boy, pero se llevó un buen susto al ver los precios desorbitados que habían en el mercado y pensó que en lugar de gastarse el dinero, él mismo se haría una copia y se puso manos a la obra con Rob Schwartz y Sean Wilkinson.</p>
             </article>
             <article>
-                <img class="historia__imagen" src="recursos/imagen-central.jpg" alt="Imagen principal"> <!-- Enlace Local -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="recursos/imagen-central.jpg" class="d-block w-100 img-principal" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="recursos/img-principal-dos.jpg" class="d-block w-100 img-principal" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="recursos/img-principal-tres.jpg" class="d-block w-100 img-principal" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </article>
         </section>
         <section class="secciones">
