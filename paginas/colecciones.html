@@ -64,37 +64,32 @@
             </article>
             <article class="formulario">
                 <h3 class="formulario__titulo">Envianos tu coleccion para compartirla con el resto de los aficionados</h3>
-                <form class="formulario__form" method="post">
-                    <div>
-                        <label>Nombre</label> <!-- Muestra la palabra antes del input -->
-                        <input> <!-- obtener informacion del usuario en una sola linea -->
-                    </div>
-                    <div>
-                        <label> Email</label>
-                        <input type="email">
-                    </div>
-                    <div>
-                        <label for="">Sos mayor de edad?</label>
-                        <input type="checkbox" name="Si" id="" value="">
-                        <label>SI</label>
-                        <input type="checkbox" name="No" id="" value="">
-                        <label>NO</label>
-                    </div>
-                    <div>
-                        <label for="">Sexo</label>
-                        <select name="Sexo" id="">
-                            <option value="">Masculino</option>
-                            <option value="">Femenino</option>
-                        </select>
-                    </div>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="7"></textarea> <!-- informacion que amerite mas de una linea -->
-                    </div>
-                    <div>
-                        <input type="file">
-                        <input type="submit">
-                        <input type="reset">
-                    </div>
+                <div class="formulario__total">
+                    <form class="formulario__form" method="post">
+                        <div class="input-group input-group-sm mb-3 ">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                            <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text p-1" for="inputGroupSelect01">Sexo</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Comentarios</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Enviar</button>
+                        </div>
+                </div>
             </article>
         </section>
     </main>

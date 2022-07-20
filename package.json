@@ -1,0 +1,23 @@
+{
+  "name": "facundo-corradi-funko",
+  "version": "1.0.0",
+  "description": "<h1>Funko POP - Proyecto CoderHouse</h1>\r <p>Este sitio es para conocer mas sobre los Funko POP</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facu-Corradi/funko-pop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facu-Corradi/funko-pop/issues"
+  },
+  "homepage": "https://github.com/Facu-Corradi/funko-pop#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

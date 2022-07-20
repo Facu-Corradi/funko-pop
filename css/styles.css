@@ -298,8 +298,9 @@ footer {
     font-family: 'Joan', serif;
 }
 
-.formulario__form label {
-    font-family: 'Roboto Condensed', sans-serif;
+.formulario__total {
+    width: 30%;
+    margin: auto;
 }
 
 /* MEDIA QUERIE celular */
@@ -357,6 +358,10 @@ footer {
     border-bottom: 1px solid black;
 }
 
+.formulario__total {
+    width: 100%;
+}
+
 }
 
 /* MEDIA QUERIE Tablet */
@@ -401,6 +406,10 @@ footer {
     .coleccioncuatro {
         width: 280px;
         height: 280px;
+}
+
+.formulario__total {
+    width: 60%;
 }
 
 }
