@@ -99,6 +99,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 3px;
 }
 
 .secciones__imagen--imagenes:hover {
@@ -303,6 +304,25 @@ footer {
     margin: auto;
 }
 
+.subscripcion {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subscripcion h3 {
+    font-size: 45px;
+}
+
+.subscripcion__email {
+    width: 30%;
+}
+
+.subscripcion__parrafo {
+    font-size: 25px;
+}
+
 /* MEDIA QUERIE celular */
 @media (min-width: 320px) and (max-width: 575px) {
 
@@ -362,6 +382,10 @@ footer {
     width: 100%;
 }
 
+.subscripcion__email {
+    width: 100%;
+}
+
 }
 
 /* MEDIA QUERIE Tablet */
@@ -409,6 +433,10 @@ footer {
 }
 
 .formulario__total {
+    width: 60%;
+}
+
+.subscripcion__email {
     width: 60%;
 }
 
