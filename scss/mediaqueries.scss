@@ -1,0 +1,126 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .lista__encabezado {
+        display: block;
+
+        &--objeto {
+            padding: 3px;
+        }
+    }
+    
+
+    
+    .img-principal {
+        width: auto;
+        height: 300px;
+    }
+    
+    .secciones__imagen--imagenes {
+        margin: 2px;
+    }
+    
+    .colecciones__imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .coleccion {
+        
+        &__uno {
+            width: 280px;
+            height: 280px;
+        }
+        &__dos {
+            width: 280px;
+            height: 280px;
+        }
+        
+        &__tres {
+            width: 280px;
+            height: 280px;
+        }
+        
+        &__cuatro {
+            width: 280px;
+            height: 280px;
+        }
+
+    }
+
+    
+
+    
+    .galeria__fotos {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+    
+    .formulario__total {
+        width: 100%;
+    }
+    
+    .subscripcion__email {
+        width: 100%;
+    }
+    
+    }
+    
+    /* MEDIA QUERIE Tablet */
+    @media (min-width: 576px) and (max-width: 992px) {
+    
+        .secciones__imagen--imagenes {
+            margin: 2px;
+        }
+        
+        .colecciones__imagenes {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        
+    }
+        
+        .galeria__fotos {
+            width: 250px;
+            height: 250px;
+            padding: 10px;
+            border-bottom: 1px solid black;
+    }
+    
+    .coleccion {
+        
+        &__uno {
+            width: 280px;
+            height: 280px;
+        }
+        &__dos {
+            width: 280px;
+            height: 280px;
+        }
+        
+        &__tres {
+            width: 280px;
+            height: 280px;
+        }
+        
+        &__cuatro {
+            width: 280px;
+            height: 280px;
+        }
+
+    }
+    
+    .formulario__total {
+        width: 60%;
+    }
+    
+    .subscripcion__email {
+        width: 60%;
+    }
+    
+    }

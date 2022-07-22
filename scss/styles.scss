@@ -14,29 +14,26 @@ main {
 
 }
 
+.historia {
 
-.img-principal {
+    &__total {
+        display: flex;
+        flex-direction: column;
 
-    height: 550px;
-}
-
-.historia__total {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.historia__total--titulo {
-    font-family: 'Joan', serif;
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
-}
-
-.historia__total--desarrollo {
-    color: rgb(23, 152, 199);
-    padding: 16px;
-    margin: 10px;
+        &--titulo {
+            font-family: 'Joan', serif;
+            text-align: center;
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+        &--desarrollo {
+            color: rgb(23, 152, 199);
+            padding: 16px;
+            margin: 10px;
+        }
+    
+    }
 }
 
 
@@ -148,84 +145,83 @@ main {
 
 /* css colecciones */
 
-.colecciones__imagenes {
-    display: grid;
-    width: auto;
-    height: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+.colecciones {
+
+
+
+    &__imagenes {
+        display: grid;
+        width: auto;
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr
+    }
+
+    &__cuadro {
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
 
 }
 
-.coleccionuno {
-    grid-column: 1/2;
-    grid-row: 1/3;
+.galeria__imagenes {
 
+    &--uno {
+        width: 95%;
+        height: 95%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
 
+    &--dos {
+        width: 90%;
+        height: 90%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+
+    &--tres {
+        width: 90%;
+        height: 90%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+
+    &--cuatro {
+        width: 95%;
+        height: 95%;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
 }
 
-.galeria__imagenes--uno {
-    width: 95%;
-    height: 95%;
-    border-bottom: 1px solid black;
-    padding: 10px;
+.coleccion {
 
-}
-
-.colecciondos {
-    grid-column: 2/3;
-    grid-row: 1/2;
-
-}
-
-.galeria__imagenes--dos {
-    width: 90%;
-    height: 90%;
-    border-bottom: 1px solid black;
-    padding: 10px;
-
-
-}
-
-
-.colecciontres {
-    grid-column: 2/3;
-    grid-row: 2/3;
-
-
-}
-
-.galeria__imagenes--tres {
-    width: 90%;
-    height: 90%;
-    border-bottom: 1px solid black;
-    padding: 10px;
-}
-
-.coleccioncuatro {
-    grid-column: 3/4;
-    grid-row: 1/3;
-
-
-}
-
-.galeria__imagenes--cuatro {
-    width: 95%;
-    height: 95%;
-    border-bottom: 1px solid black;
-    padding: 10px;
-
-}
-
-.colecciones__cuadro {
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    &__uno {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
     
-
+    &__dos {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    &__tres {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    &__cuatro {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
 }
+
+
 
 /* formulario */
 
@@ -266,123 +262,5 @@ main {
     }
 }
 
+@import "mediaqueries.scss";
 
-
-/* MEDIA QUERIE celular */
-@media (min-width: 320px) and (max-width: 575px) {
-
-.lista__encabezado {
-    display: block;
-}
-
-.lista__encabezado--objeto {
-    padding: 3px;
-}
-
-.img-principal {
-    width: auto;
-    height: 400px;
-}
-
-.secciones__imagen--imagenes {
-    margin: 2px;
-}
-
-.colecciones__imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.coleccionuno {
-    width: 280px;
-    height: 280px;
-}
-
-.colecciondos {
-    width: 280px;
-    height: 280px;
-}
-
-.colecciontres {
-    width: 280px;
-    height: 280px;
-}
-
-.coleccioncuatro {
-    width: 280px;
-    height: 280px;
-}
-
-.galeria__fotos {
-    width: 250px;
-    height: 250px;
-    padding: 10px;
-    border-bottom: 1px solid black;
-}
-
-.formulario__total {
-    width: 100%;
-}
-
-.subscripcion__email {
-    width: 100%;
-}
-
-}
-
-/* MEDIA QUERIE Tablet */
-@media (min-width: 576px) and (max-width: 992px) {
-
-    .secciones__imagen--imagenes {
-        margin: 2px;
-    }
-    
-    .colecciones__imagenes {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    
-}
-    
-    .galeria__fotos {
-        width: 250px;
-        height: 250px;
-        padding: 10px;
-        border-bottom: 1px solid black;
-}
-
-
-
-    .coleccionuno {
-        width: 280px;
-        height: 280px;
-}
-
-    .colecciondos {
-        width: 280px;
-        height: 280px;
-}
-
-    .colecciontres {
-        width: 280px;
-        height: 280px;
-}
-
-    .coleccioncuatro {
-        width: 280px;
-        height: 280px;
-}
-
-.formulario__total {
-    width: 60%;
-}
-
-.subscripcion__email {
-    width: 60%;
-}
-
-}
