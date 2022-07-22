@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header navegacion */
+
+header {
+    background-color: rgb(127,221,255);
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista__inicio {
+    padding: 10px 0px 10px 8px;
+}
+
+.lista__encabezado a {
+    color: black;
+
+}
+
+
+.lista__encabezado--objeto {
+    text-decoration: none;
+    padding: 0px 10px 0px 8px;
+}
+
+/* .lista__encabezado a {
+    color: black;
+    text-decoration: none;
+} */
+
+/* Contenido */
+
+main {
+    background-color: rgb(235,235,235);
+
+}
+
+/* historia */
+
+/* .historia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+
+} */
+
+.img-principal {
+
+    height: 550px;
+}
+
+.historia__total {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.historia__total--titulo {
+    font-family: 'Joan', serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.historia__total--desarrollo {
+    color: rgb(23, 152, 199);
+    padding: 16px;
+    margin: 10px;
+}
+
+
+
+/* secciones */
+
+.secciones {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.secciones__titulo {
+    font-family: 'Joan', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.secciones__imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3px;
+}
+
+.secciones__imagen--imagenes:hover {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+}
+
+
+.secciones__imagen--imagenes {
+    width: 250px;
+}
+
+/* pie de pagina */
+
+footer {
+    background-color: rgb(127,221,255);
+}
+
+
+.footer__redes {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__redes--imagenes {
+    width: 30px;
+    margin: 15px;
+}
+
+.footer__derechos {
+    padding: 8px;
+
+}
+
+
+/* css imganes-videos got hp marvel coleccion */
+
+.galeria__titulo {
+    font-family: 'Joan', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.galeria__subtitulo {
+    font-family: 'Joan', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.galeria__imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.galeria__imagenes--got {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.galeria__cuadro {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.galeria__imagenes--got:hover {
+    flex: 1;
+    width: 270px;
+    height: 270px;
+    transition: 0.5s;
+}
+
+.videos__titulo {
+    font-family: 'Joan', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.videos__youtube {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.youtube {
+    margin: 8px;
+}
+
+/* css colecciones */
+
+.colecciones__imagenes {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.coleccionuno {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+
+}
+
+.galeria__imagenes--uno {
+    width: 95%;
+    height: 95%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+
+.colecciondos {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.galeria__imagenes--dos {
+    width: 90%;
+    height: 90%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+
+}
+
+
+.colecciontres {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+
+}
+
+.galeria__imagenes--tres {
+    width: 90%;
+    height: 90%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.coleccioncuatro {
+    grid-column: 3/4;
+    grid-row: 1/3;
+
+
+}
+
+.galeria__imagenes--cuatro {
+    width: 95%;
+    height: 95%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+
+.colecciones__cuadro {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+
+/* formulario */
+
+.formulario {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.formulario__titulo {
+    padding: 10px;
+    font-family: 'Joan', serif;
+}
+
+.formulario__total {
+    width: 30%;
+    margin: auto;
+}
+
+.subscripcion {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subscripcion h3 {
+    font-size: 45px;
+}
+
+.subscripcion__email {
+    width: 30%;
+}
+
+.subscripcion__parrafo {
+    font-size: 25px;
+}
+
+/* MEDIA QUERIE celular */
+@media (min-width: 320px) and (max-width: 575px) {
+
+.lista__encabezado {
+    display: block;
+}
+
+.lista__encabezado--objeto {
+    padding: 3px;
+}
+
+.img-principal {
+    width: auto;
+    height: 400px;
+}
+
+.secciones__imagen--imagenes {
+    margin: 2px;
+}
+
+.colecciones__imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.coleccionuno {
+    width: 280px;
+    height: 280px;
+}
+
+.colecciondos {
+    width: 280px;
+    height: 280px;
+}
+
+.colecciontres {
+    width: 280px;
+    height: 280px;
+}
+
+.coleccioncuatro {
+    width: 280px;
+    height: 280px;
+}
+
+.galeria__fotos {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.formulario__total {
+    width: 100%;
+}
+
+.subscripcion__email {
+    width: 100%;
+}
+
+}
+
+/* MEDIA QUERIE Tablet */
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .secciones__imagen--imagenes {
+        margin: 2px;
+    }
+    
+    .colecciones__imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+}
+    
+    .galeria__fotos {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+        border-bottom: 1px solid black;
+}
+
+
+
+    .coleccionuno {
+        width: 280px;
+        height: 280px;
+}
+
+    .colecciondos {
+        width: 280px;
+        height: 280px;
+}
+
+    .colecciontres {
+        width: 280px;
+        height: 280px;
+}
+
+    .coleccioncuatro {
+        width: 280px;
+        height: 280px;
+}
+
+.formulario__total {
+    width: 60%;
+}
+
+.subscripcion__email {
+    width: 60%;
+}
+
+}

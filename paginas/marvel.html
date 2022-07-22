@@ -91,8 +91,8 @@
         <section class="videos"> <!-- galeria videos -->
             <h2 class="videos__titulo">Videos</h2>
             <div class="videos__youtube">
-                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/UhVjp48U2Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/X4Kqgc1plBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="videos__youtube--margin" width="560" height="315" src="https://www.youtube.com/embed/UhVjp48U2Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="videos__youtube--margin" width="560" height="315" src="https://www.youtube.com/embed/X4Kqgc1plBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
         <section class="subscripcion">
@@ -105,15 +105,17 @@
         </section>
     </main>
     <footer> <!-- Pie de pagina -->
-        <h4 class="footer__redes">Redes Sociales</h4>
-        <nav class="redes">
-            <div> <!-- imagenes redes sociales -->
-                <a href="https://www.instagram.com/originalfunko/"><img class="footer__redes--imagenes" src="../recursos/instagram-brands.svg" alt=""></a>
-                <a href="https://twitter.com/OriginalFunko"><img class="footer__redes--imagenes" src="../recursos/twitter-brands.svg" alt=""></a>
-                <a href="https://www.facebook.com/originalfunko"><img class="footer__redes--imagenes" src="../recursos/facebook-f-brands.svg" alt=""></a>
-            </div>
+        <div class="footer">
+            <h3 class="footer__redessociales">Redes Sociales</h3>
+            <nav class="footer__redes">
+                <div> <!-- link redes sociales con imagen -->
+                    <a href="https://www.instagram.com/originalfunko/"><img class="footer__redes--imagenes" src="../recursos/instagram-brands.svg" alt=""></a>
+                    <a href="https://twitter.com/OriginalFunko"><img class="footer__redes--imagenes" src="../recursos/twitter-brands.svg" alt=""></a>
+                    <a href="https://www.facebook.com/originalfunko"><img class="footer__redes--imagenes" src="../recursos/facebook-f-brands.svg" alt=""></a>
+                </div>
+            </nav>
             <p class="footer__derechos">Todos los derechos reservados 2022</p>
-        </nav>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

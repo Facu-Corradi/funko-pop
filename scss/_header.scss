@@ -1,0 +1,25 @@
+header {
+    background-color: $color-principal;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__inicio {
+        padding: 10px 0px 10px 8px;
+    }
+    
+    &__encabezado a {
+        color: black;
+    
+    }
+    
+    
+    &__encabezado--objeto {
+        text-decoration: none;
+        padding: 0px 10px 0px 8px;
+    }
+}

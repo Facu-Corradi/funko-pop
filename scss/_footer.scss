@@ -1,0 +1,28 @@
+footer {
+    background-color: $color-principal;
+
+}
+    .footer{
+        &__redessociales {
+            text-align: center;
+            padding: 5px;
+            font-family: 'Shadows Into Light', cursive;
+        }
+        
+        &__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &__redes--imagenes {
+            width: 30px;
+            margin: 15px;
+        }
+        
+        &__derechos {
+            padding: 8px;
+            text-align: center;
+            margin-bottom: 0%;
+        }
+    }
