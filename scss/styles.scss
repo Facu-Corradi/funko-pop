@@ -36,7 +36,9 @@ main {
     }
 }
 
-
+.img-principal {
+    height: 500px;
+}
 
 /* secciones */
 
@@ -146,8 +148,6 @@ main {
 /* css colecciones */
 
 .colecciones {
-
-
 
     &__imagenes {
         display: grid;

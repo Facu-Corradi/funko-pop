@@ -58,6 +58,9 @@ main {
     padding: 16px;
     margin: 10px; }
 
+.img-principal {
+  height: 500px; }
+
 /* secciones */
 .secciones {
   margin: 10px 0px 0px 0px;
