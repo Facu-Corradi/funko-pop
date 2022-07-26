@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "operators";
 
 *{
     margin: 0px;
@@ -167,34 +168,32 @@ main {
 
 }
 
+
 .galeria__imagenes {
 
     &--uno {
+        @extend .border_padd;
         width: 95%;
         height: 95%;
-        border-bottom: 1px solid black;
-        padding: 10px;
+
     }
 
     &--dos {
         width: 90%;
         height: 90%;
-        border-bottom: 1px solid black;
-        padding: 10px;
+        @extend .border_padd;
     }
 
     &--tres {
         width: 90%;
         height: 90%;
-        border-bottom: 1px solid black;
-        padding: 10px;
+        @extend .border_padd;
     }
 
     &--cuatro {
         width: 95%;
         height: 95%;
-        border-bottom: 1px solid black;
-        padding: 10px;
+        @extend .border_padd;
     }
 }
 

@@ -37,6 +37,10 @@ footer {
   text-align: center;
   margin-bottom: 0%; }
 
+.border_padd, .galeria__imagenes--uno, .galeria__imagenes--dos, .galeria__imagenes--tres, .galeria__imagenes--cuatro {
+  border-bottom: 1px solid black;
+  padding: 10px; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -151,27 +155,19 @@ main {
 
 .galeria__imagenes--uno {
   width: 95%;
-  height: 95%;
-  border-bottom: 1px solid black;
-  padding: 10px; }
+  height: 95%; }
 
 .galeria__imagenes--dos {
   width: 90%;
-  height: 90%;
-  border-bottom: 1px solid black;
-  padding: 10px; }
+  height: 90%; }
 
 .galeria__imagenes--tres {
   width: 90%;
-  height: 90%;
-  border-bottom: 1px solid black;
-  padding: 10px; }
+  height: 90%; }
 
 .galeria__imagenes--cuatro {
   width: 95%;
-  height: 95%;
-  border-bottom: 1px solid black;
-  padding: 10px; }
+  height: 95%; }
 
 .coleccion__uno {
   grid-column: 1/2;
