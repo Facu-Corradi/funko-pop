@@ -56,7 +56,8 @@ main {
     font-family: 'Joan', serif;
     text-align: center;
     padding: 10px;
-    font-size: 40px; }
+    font-size: 40px;
+    color: #686464; }
   .historia__total--desarrollo {
     color: #1798c7;
     padding: 16px;
@@ -75,7 +76,8 @@ main {
   .secciones__titulo {
     font-family: 'Joan', serif;
     text-align: center;
-    padding: 10px; }
+    padding: 10px;
+    color: #686464; }
   .secciones__imagen {
     display: flex;
     flex-wrap: wrap;
@@ -93,12 +95,14 @@ main {
 .galeria__titulo {
   font-family: 'Joan', serif;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  color: #686464; }
 
 .galeria__subtitulo {
   font-family: 'Joan', serif;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  color: #777676; }
 
 .galeria__imagenes {
   display: flex;
@@ -127,7 +131,8 @@ main {
 .videos__titulo {
   font-family: 'Joan', serif;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  color: #686464; }
 
 .videos__youtube {
   display: flex;
